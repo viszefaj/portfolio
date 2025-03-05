@@ -1,0 +1,10 @@
+
+body{
+  background-color: #1E3E62;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
