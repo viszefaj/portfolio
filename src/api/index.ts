@@ -4,11 +4,7 @@ export const NavbarList = [
     active: true,
   },
   {
-    title: "About",
-    active: false,
-  },
-  {
-    title: "Projects",
+    title: "Services",
     active: false,
   },
   {

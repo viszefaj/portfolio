@@ -1,11 +1,12 @@
-import { Nav, NavList, NavItem, NavButton } from "./styled";
+import { Nav, NavList, NavItem } from "./styled";
+import { Button } from "../../types";
 import { NavbarList } from "../../api";
 import {Typography } from "@mui/material";
 
 const Navbar = () => {
   return (
     <Nav>
-      <Typography variant="h4">Portfolio</Typography>
+      <Typography variant="h4" color='#959595'>Portfolio</Typography>
       {NavbarList.map((item, index) => {
         return (
           <NavList key={index}>
@@ -15,9 +16,9 @@ const Navbar = () => {
           </NavList>
         );
       })}
-      <NavButton>
+      <Button>
         <Typography>Hire Me</Typography>
-      </NavButton>
+      </Button>
     </Nav>
   );
 };

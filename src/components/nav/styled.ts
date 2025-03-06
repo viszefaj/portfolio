@@ -23,7 +23,7 @@ export const NavList = styled.ul`
 `;
 export const NavItem = styled.li<{ active?: boolean }>`
   margin-right: 1rem;
-  color: ${(props) => (props.active ? "#FF8542" : "#fff")};
+  color: ${(props) => (props.active ? "#FF8542" : "#959595")};
   font-weight: 700;
   font-family: "Times New Roman", Times, serif;
   cursor: pointer;
@@ -32,18 +32,4 @@ export const NavItem = styled.li<{ active?: boolean }>`
     &:hover {
         color:#FF8542 ;
     }
-`;
-
-export const NavButton = styled.button`
-  padding: 0.5rem 1rem;
-  border: none;
-  border-radius: 5px;
-  background-color: #ff6500;
-  color: #fff;
-  font-weight: 700;
-  cursor: pointer;
-  transition: all 0.3s;
-  &:hover {
-    background-color:#FF8542 ;
-  }
 `;

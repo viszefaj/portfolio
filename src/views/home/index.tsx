@@ -1,12 +1,18 @@
 import  Navbar from "../../components/nav"
-import About from "../../components/about"
+import Intro from "../../components/intro"
+import Contact from "../../components/contact"
+import Footer from "../../components/footer"
+import Services from "../../components/services"
 
 
 const Home = () => {
     return (
         <>
         <Navbar/>
-        <About/>
+        <Intro/>
+        <Contact/>
+        <Services/>
+        <Footer/>
         </>
     )
 }
